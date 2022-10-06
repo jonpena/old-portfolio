@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview --open",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0",
+    "workbox-cli": "^6.5.4"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

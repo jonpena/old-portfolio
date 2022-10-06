@@ -1,0 +1,45 @@
+{
+  "navbar": {
+    "nav-item1": "INICIO",
+    "nav-item2": "PROYECTOS",
+    "nav-item3": "SOBRE MÍ",
+    "nav-item4": "CONTACTO"
+  },
+
+  "hero": {
+    "hero-h1": "Hola Soy Jonathan Peña",
+    "hero-h2": "Desarrollador Web",
+    "hero-quote": "\"La educación es lo que queda después de que uno olvida lo que ha aprendido en la escuela\" <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>",
+    "hero-btn": "SOBRE MÍ"
+  },
+
+  "project": {
+    "project-h2": "Proyectos destacados",
+    "project-p": "Estos son los últimos proyectos en los que trabajé",
+    "project-btn": "LEER MÁS",
+    "project-num1": "PROYECTO #01",
+    "project-num2": "PROYECTO #02",
+    "project-num3": "PROYECTO #03"
+  },
+  "about": {
+    "about-title": "SOBRE Mí",
+    "about-description": "Soy un desarrollador web que disfruta hacer la maquetación e interactividad de las interfaces web, así como la optimización, para el buen posicionamiento y rendimiento de carga de sitios web y aplicaciones. Tengo experiencia en el frontend y backend, siendo considerado un desarrollador full-stack javascript. También tengo experiencia en Marketing de Contenidos, SEO y Desarrollo de Videojuegos.",
+    "about-subtitle": "HABILIDADES"
+  },
+  "contact": {
+    "contact-h2": "Contactame",
+    "contact-name": "Nombre",
+    "contact-nameError": "El nombre de debe tener de 3 a 20 digitos y puede solamente contener letras",
+    "contact-lastname": "Apellido (opcional)",
+    "contact-lastnameError": "El apellido de debe tener de 3 a 20 digitos y puede solamente contener letras",
+    "contact-email": "Correo electrónico",
+    "contact-emailError": "El correo electrónico puede solamente contener letras, numeros, puntos y guiones",
+    "contact-number": "Telefono (opcional)",
+    "contact-numberError": "El numero de telefono debe tener de 7 a 12 digitos y solamente puede contener numeros",
+    "contact-message": "Mensaje",
+    "contact-submit": "Enviar"
+  },
+  "footer": {
+    "footer-p": "Creado con <span>❤️</span> por Jonathan Peña"
+  }
+}

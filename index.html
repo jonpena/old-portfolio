@@ -24,8 +24,8 @@
   <meta content="https://jonpena.github.io/" property="twitter:url" />
   <link rel="canonical" href="https://jonpena.github.io/" />
 
-  <meta property="og:image" content="./assets/favicon-128x128.png" />
-  <meta name="twitter:image" content="./assets/favicon-128x128.png" />
+  <meta property="og:image" content="./images/favicon-128x128.png" />
+  <meta name="twitter:image" content="./images/favicon-128x128.png" />
 
   <title>Jonathan Peña | Portfolio</title>
 
@@ -37,10 +37,10 @@
   <meta name="apple-mobile-web-app-status-bar" content="#0a0a26" />
 
   <link rel="manifest" href="manifest.json" />
-  <link rel="shortcut icon" href="./assets/icon.png" type="image/png" />
-  <link rel="apple-touch-icon" href="assets/favicon-128x128.png" />
-  <link rel="apple-touch-icon" href="assets/favicon-512x512.png" />
-  <link rel="apple-touch-startup-image" href="assets/favicon-512x512.png" />
+  <link rel="shortcut icon" href="./images/icon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="./`images/favicon-128x128.png" />
+  <link rel="apple-touch-icon" href="./images/favicon-512x512.png" />
+  <link rel="apple-touch-startup-image" href="./images/favicon-512x512.png" />
 
   <!-- G O O G L E  F O N T -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -61,7 +61,7 @@
   <!-- Progressive Web App | Register Service Worker -->
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./sw.js').then(
+      navigator.serviceWorker.register('./assets/sw.js').then(
         () => {
           console.log('register success');
         },
@@ -96,7 +96,7 @@
 
       <div class="navbar-container">
         <a href="#" class="logo-container">
-          <img class="logo-img" src="assets/icon.png" alt="icon" />
+          <img class="logo-img" src="images/icon.png" alt="icon" />
           <span class="logo" href="#">JONATHAN<b style="margin-left: 0.5rem">PEÑA</b></span>
         </a>
 
@@ -112,9 +112,9 @@
           <div class="indicator"></div>
 
           <div id="language">
-            <img width="16" height="16" src="assets/icon-earth.svg" alt="earth icono">
+            <img width="16" height="16" src="images/icon-earth.svg" alt="earth icono">
             <select class="selected-language">
-              <option value="en" selected>EN</option>
+              <option value="en">EN</option>
               <option value="es">ES</option>
             </select>
           </div>
@@ -168,7 +168,7 @@
 
           <div class="project-container">
             <div class="project-item move-right">
-              <img class="project-img" src="assets/site-1.webp" width="600" height="480" alt="website-1" />
+              <img class="project-img" src="images/site-1.webp" width="600" height="480" alt="website-1" />
 
               <div class="project-content">
                 <p data-section="project" data-value="project-num1">Project #01</p>
@@ -180,7 +180,7 @@
             </div>
 
             <div class="project-item move-left">
-              <img class="project-img" src="assets/site-2.webp" width="600" height="480" alt="website-2" />
+              <img class="project-img" src="images/site-2.webp" width="600" height="480" alt="website-2" />
 
               <div class="project-content">
                 <p data-section="project" data-value="project-num2">Project #02</p>
@@ -192,7 +192,7 @@
             </div>
 
             <div class="project-item move-right">
-              <img class="project-img" src="assets/site-3.webp" width="600" height="480" alt="website-3" />
+              <img class="project-img" src="images/site-3.webp" width="600" height="480" alt="website-3" />
 
               <div class="project-content">
                 <p data-section="project" data-value="project-num3">Project #03</p>
@@ -302,10 +302,10 @@
         <div class="footer-container">
 
           <div class="social-container">
-            <img src="assets/icon-linkedin.svg" alt="linkedin icon">
-            <img src="assets/icon-github.svg" alt="github icon">
-            <img src="assets/icon-whatsapp.svg" alt="whatsapp icon">
-            <img src="assets/icon-youtube.svg" alt="youtube icon">
+            <img src="images/icon-linkedin.svg" alt="linkedin icon">
+            <img src="images/icon-github.svg" alt="github icon">
+            <img src="images/icon-whatsapp.svg" alt="whatsapp icon">
+            <img src="images/icon-youtube.svg" alt="youtube icon">
           </div>
 
           <p data-section="footer" data-value="footer-p">Built with <span>❤️</span> by Jonathan Peña</p>

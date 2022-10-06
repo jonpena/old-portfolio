@@ -9,8 +9,7 @@
   "hero": {
     "hero-h1": "Hola Soy Jonathan Peña",
     "hero-h2": "Desarrollador Web",
-    "hero-quote": "\"La educación es lo que queda después de que uno olvida lo que ha aprendido en la escuela\" <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>",
-    "hero-btn": "SOBRE MÍ"
+    "hero-quote": "\"La educación es lo que queda después de que uno olvida lo que ha aprendido en la escuela\" <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>"
   },
 
   "project": {

@@ -9,8 +9,7 @@
   "hero": {
     "hero-h1": "Hi I'm Jonathan Peña",
     "hero-h2": "Web Developer",
-    "hero-quote": "\"Education is what remains after one has forgotten, what one has learned in school\" <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>",
-    "hero-btn": "ABOUT ME"
+    "hero-quote": "\"Education is what remains after one has forgotten, what one has learned in school\" <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>"
   },
 
   "project": {

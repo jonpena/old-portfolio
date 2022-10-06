@@ -615,7 +615,7 @@ body {
     var(--primary-color) 100%
   );
   padding-bottom: 4rem;
-  clip-path: polygon(0 1.5%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 1.2%, 100% 0, 100% 100%, 0% 100%);
 }
 
 /*  S E C T I O N   P R O J E C T  */
@@ -978,7 +978,6 @@ button {
   position: relative;
   z-index: 30;
   background-color: var(--secondary-color);
-  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -993,7 +992,7 @@ button {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
   color: #535353;
@@ -1088,8 +1087,6 @@ button {
 }
 
 .social-container img:hover {
-  /* border: 1px solid #000; */
-  /* position: relative; */
   transform: translateY(-0.3rem);
 }
 

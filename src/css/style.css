@@ -872,7 +872,7 @@ body {
 	position: absolute;
 	width: 1rem;
 	height: 1rem;
-	background: url(./images/asterisk.svg) 20% 0%/0.4rem no-repeat;
+	background: url(../images/asterisk.svg) 20% 0%/0.4rem no-repeat;
 }
 
 .inputBox input {
@@ -945,13 +945,13 @@ button {
 
 .form-container .row50 .inputBox input:invalid {
 	border: 1px solid #bb2929;
-	background: url(./images/circle-error.svg) 98%/1.25rem no-repeat;
+	background: url(../images/circle-error.svg) 98%/1.25rem no-repeat;
 	background-color: var(--primary-color);
 }
 
 .form-container .row50 .inputBox input:valid {
 	border: 1px solid #0f0;
-	background: url(./images/circle-success.svg) 98%/1.25rem no-repeat;
+	background: url(../images/circle-success.svg) 98%/1.25rem no-repeat;
 	background-color: var(--primary-color);
 }
 

@@ -1,14 +1,11 @@
-const setLanguageJson = (language, $textToChange) => {
-  fetch(`./language/${language}.json`)
-    .then((res) => {
-      return res.ok ? res.json() : Promise.reject(res);
-    })
-    .then((json) => {
-      for (const text of $textToChange) {
-        text.innerHTML = json[text.dataset.section][text.dataset.value];
-      }
-    })
-    .catch((err) => console.log(err));
+const setLanguageJson = (language, texts) => {
+  (async () => {
+    const response = await fetch(`./language/${language}.json`);
+    const data = await response.json();
+    for (const text of texts) {
+      text.innerHTML = data[text.dataset.section][text.dataset.value];
+    }
+  })();
 };
 
 export { setLanguageJson };

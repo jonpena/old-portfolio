@@ -1,14 +1,10 @@
-const changePageLanguage = function (key) {
-  window.localStorage.setItem("lang", key);
+const setPageLanguage = () => {
+  const browserLang = navigator.language || navigator.userLanguage;
+  const lang = browserLang.slice(0, 2);
+
+  if (window.localStorage.getItem("lang") === null) {
+    window.localStorage.setItem("lang", lang);
+  }
 };
 
-export function setPageLanguage() {
-  let key = window.localStorage.getItem("lang");
-  const browserLang = (navigator.language || navigator.userLanguage).slice(
-    0,
-    2
-  );
-  if (key === null) changePageLanguage(browserLang);
-}
-
-export default changePageLanguage;
+export { setPageLanguage };

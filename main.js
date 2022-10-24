@@ -6,7 +6,7 @@ import intlTelInput from "./src/css/intlTelInput.min.css";
 
 import scrollAnimation from "./src/js/scrollAnimation.js";
 import { createTagCloud, updateTagCloud } from "./src/js/tagCloud.js";
-import changePageLanguage, { setPageLanguage } from "./src/js/multiLanguage.js";
+import { setPageLanguage } from "./src/js/multiLanguage.js";
 import { setLanguageJson } from "./src/js/utils.js";
 
 const $hamburger = document.querySelector(".hamburger");
@@ -43,12 +43,29 @@ const setOptionSelect = (language, langSelect) => {
 // /**  E  V  E  N  T  S **/
 
 window.addEventListener("DOMContentLoaded", () => {
-  const lang = window.localStorage.getItem("lang");
   scrollAnimation();
   createTagCloud(options);
   setPageLanguage();
+  const lang = window.localStorage.getItem("lang");
   setLanguageJson(lang, $textToChange);
   setOptionSelect(lang, $langSelect);
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+  const $errorMessage = document.createElement("p");
+  $errorMessage.setAttribute("data-section", "contact");
+  $errorMessage.setAttribute("data-value", "contact-numberError");
+  $errorMessage.innerHTML =
+    "Phone number must be from 7 to 12 digits and can only contain numbers";
+
+  const $numberLabel = document.createElement("label");
+  $numberLabel.setAttribute("for", "phone");
+  $numberLabel.setAttribute("data-section", "contact");
+  $numberLabel.setAttribute("data-value", "contact-number");
+  $numberLabel.innerHTML = "Phone Number";
+  $phoneInput.after($errorMessage, $numberLabel);
+
+  $textToChange = document.querySelectorAll("[data-section]");
 });
 
 // /** Redimensionar tagcloud con respecto a la media query **/
@@ -112,32 +129,14 @@ $sections.forEach((item) => observer.observe(item));
 /** international telephone input **/
 window.intlTelInput($phoneInput, null);
 
-window.addEventListener("DOMContentLoaded", () => {
-  const $errorMessage = document.createElement("p");
-  $errorMessage.setAttribute("data-section", "contact");
-  $errorMessage.setAttribute("data-value", "contact-numberError");
-  $errorMessage.innerHTML =
-    "Phone number must be from 7 to 12 digits and can only contain numbers";
-
-  const $numberLabel = document.createElement("label");
-  $numberLabel.setAttribute("for", "phone");
-  $numberLabel.setAttribute("data-section", "contact");
-  $numberLabel.setAttribute("data-value", "contact-number");
-  $numberLabel.innerHTML = "Phone Number";
-  $phoneInput.after($errorMessage, $numberLabel);
-
-  $textToChange = document.querySelectorAll("[data-section]");
-});
-
 $langSelect.addEventListener("change", (e) => {
-  changePageLanguage(e.target.value);
+  window.localStorage.setItem("lang", e.target.value);
   setLanguageJson(e.target.value, $textToChange);
 });
 
 document.addEventListener("submit", (e) => {
   e.preventDefault();
-
-  fetch("https://formsubmit.co/ajax/granj215@gmail.com", {
+  fetch("https://formsubmit.co/ajax/15859187a6f1f1f878e69999069e6362", {
     method: "POST",
     body: new FormData(e.target),
   })

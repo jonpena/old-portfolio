@@ -9,7 +9,9 @@
   "hero": {
     "hero-h1": "Hi I'm Jonathan Peña",
     "hero-h2": "Web Developer",
-    "hero-quote": "\"Education is what remains after one has forgotten, what one has learned in school\" <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>"
+    "hero-quote": "\"Education is what remains after one has forgotten, what one has learned in school \" <br/> <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>",
+    "err-text": "Oops, Page Not Found !",
+    "back-btn": "GO HOME"
   },
 
   "project": {
@@ -29,16 +31,16 @@
     "contact-h2": "Contact me",
     "contact-name": "Name",
     "contact-nameError": "Name must be from 3 to 20 digits and can only contain letters",
-    "contact-lastname": "Last Name (optional)",
+    "contact-lastname": "Last Name",
     "contact-lastnameError": "Last name must be from 3 to 20 digits and can only contain letters",
     "contact-email": "Email",
     "contact-emailError": "Email can only contain letters, numbers, points, hyphens and underscores",
-    "contact-number": "Phone number (optional)",
+    "contact-number": "Phone Number",
     "contact-numberError": "Phone number must be from 7 to 12 digits and can only contain numbers",
     "contact-message": "Message",
     "contact-submit": "Submit"
   },
   "footer": {
-    "footer-p": "Built with <span>❤️</span> by Jonathan Peña"
+    "footer-p": "Created with <span>❤️</span> by Jonathan Peña"
   }
 }

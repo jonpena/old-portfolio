@@ -9,7 +9,9 @@
   "hero": {
     "hero-h1": "Hola Soy Jonathan Peña",
     "hero-h2": "Desarrollador Web",
-    "hero-quote": "\"La educación es lo que queda después de que uno olvida lo que ha aprendido en la escuela\" <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>"
+    "hero-quote": "\"La educación es lo que queda después de que uno olvida lo que ha aprendido en la escuela\" <br/> <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>",
+    "err-text": "Oops, Pagina No Encontrada !",
+    "back-btn": "IR A INICIO"
   },
 
   "project": {
@@ -29,11 +31,11 @@
     "contact-h2": "Contactame",
     "contact-name": "Nombre",
     "contact-nameError": "El nombre de debe tener de 3 a 20 digitos y puede solamente contener letras",
-    "contact-lastname": "Apellido (opcional)",
+    "contact-lastname": "Apellido",
     "contact-lastnameError": "El apellido de debe tener de 3 a 20 digitos y puede solamente contener letras",
     "contact-email": "Correo electrónico",
     "contact-emailError": "El correo electrónico puede solamente contener letras, numeros, puntos y guiones",
-    "contact-number": "Telefono (opcional)",
+    "contact-number": "Teléfono",
     "contact-numberError": "El numero de telefono debe tener de 7 a 12 digitos y solamente puede contener numeros",
     "contact-message": "Mensaje",
     "contact-submit": "Enviar"

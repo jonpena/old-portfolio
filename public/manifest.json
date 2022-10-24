@@ -1,7 +1,7 @@
 {
   "name": "Portfolio",
   "short_name": "Jonathan Peña",
-  "description": "this is my Personal Portfolio",
+  "description": "This is my Personal Portfolio",
   "theme_color": "#0a0a26",
   "background_color": "#0a0a26",
   "display": "standalone",
@@ -11,12 +11,12 @@
   "lang": "en",
   "icons": [
     {
-      "src": "./assets/favicon-128x128.png",
+      "src": "./images/favicon-128x128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "./assets/favicon-512x512.png",
+      "src": "./images/favicon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

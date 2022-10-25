@@ -1,4 +1,7 @@
 {
+  "home": {
+    "send-btn": "Formulario Enviado !"
+  },
   "navbar": {
     "nav-item1": "INICIO",
     "nav-item2": "PROYECTOS",

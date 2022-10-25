@@ -1,4 +1,7 @@
 {
+  "home": {
+    "send-btn": "Submitted Form !"
+  },
   "navbar": {
     "nav-item1": "HOME",
     "nav-item2": "PROJECTS",

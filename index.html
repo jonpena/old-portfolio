@@ -1,536 +1,357 @@
 <!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- M E T A S  S E O  -->
-		<meta name="application-name" content="Portfolio Jonathan Peña" />
-		<meta name="description" content="Portfolio | Frontend web developer 😊" />
-		<meta name="keywords" content="Portfolio Web developer Jonathan peña" />
-		<meta name="author" content="Web Developer" />
-		<meta name="copyright" content="Web Developer" />
-		<meta name="language" content="en" />
-		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:site" content="@jonpena" />
-		<meta property="og:type" content="website" />
-		<meta
-			name="twitter:title"
-			property="og:title"
-			content="Hi, I am Jonathan Peña Frontend web developer 😄😊"
-		/>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<meta
-			name="twitter:description"
-			content="Portfolio | Frontend web developer 😊"
-			property="og:description"
-		/>
+	<!-- M E T A S  S E O  -->
+	<meta name="application-name" content="Portfolio Jonathan Peña" />
+	<meta name="description" content="Portfolio | Frontend web developer 😊" />
+	<meta name="keywords" content="Portfolio Web developer Jonathan peña" />
+	<meta name="author" content="Web Developer" />
+	<meta name="copyright" content="Web Developer" />
+	<meta name="language" content="en" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@jonpena" />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:title" property="og:title" content="Hi, I am Jonathan Peña Frontend web developer 😄😊" />
 
-		<meta content="https://jonpena.github.io/" property="og:url" />
-		<meta content="https://jonpena.github.io/" property="twitter:url" />
-		<link rel="canonical" href="https://jonpena.github.io/" />
+	<meta name="twitter:description" content="Portfolio | Frontend web developer 😊" property="og:description" />
 
-		<meta property="og:image" content="./images/favicon-128x128.png" />
-		<meta name="twitter:image" content="./images/favicon-128x128.png" />
+	<meta content="https://jonpena.github.io/" property="og:url" />
+	<meta content="https://jonpena.github.io/" property="twitter:url" />
+	<link rel="canonical" href="https://jonpena.github.io/" />
 
-		<title>Jonathan Peña | Portfolio</title>
+	<meta property="og:image" content="./images/favicon-128x128.png" />
+	<meta name="twitter:image" content="./images/favicon-128x128.png" />
 
-		<!-- METAS PROGRESSIVE WEB APP -->
-		<meta name="theme-color" content="#0a0a26" />
-		<meta name="MobileOptimized" content="width" />
-		<meta name="HandheldFriendly" content="true" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar" content="#0a0a26" />
-		<!-- METAS PROGRESSIVE WEB APP -->
-		<link rel="manifest" href="manifest.json" />
-		<link rel="shortcut icon" href="./images/icon.png" type="image/png" />
-		<link rel="apple-touch-icon" href="./images/favicon-128x128.png" />
-		<link rel="apple-touch-icon" href="./images/favicon-512x512.png" />
-		<link rel="apple-touch-startup-image" href="./images/favicon-512x512.png" />
+	<title>Jonathan Peña | Portfolio</title>
 
-		<!-- GOOGLE FONT -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-			rel="stylesheet"
-		/>
-		<!-- GLOBAL SITE TAG | GOOGLE ANALYTICS -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=G-QP1P44M1CV"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-			gtag('config', 'G-QP1P44M1CV');
-		</script>
+	<!-- METAS PROGRESSIVE WEB APP -->
+	<meta name="theme-color" content="#0a0a26" />
+	<meta name="MobileOptimized" content="width" />
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar" content="#0a0a26" />
+	<!-- METAS PROGRESSIVE WEB APP -->
+	<link rel="manifest" href="manifest.json" />
+	<link rel="shortcut icon" href="./images/icon.png" type="image/png" />
+	<link rel="apple-touch-icon" href="./images/favicon-128x128.png" />
+	<link rel="apple-touch-icon" href="./images/favicon-512x512.png" />
+	<link rel="apple-touch-startup-image" href="./images/favicon-512x512.png" />
 
-		<!-- PROGRESSIVE WEB APP | REGISTER SERVICE WORKER -->
-		<script>
-			if ('serviceWorker' in navigator) {
-				navigator.serviceWorker.register('./assets/sw.js').then(
-					() => {
-						console.log('register success');
-					},
-					() => {
-						console.log('register failed');
-					}
-				);
-			}
-		</script>
-	</head>
+	<!-- GOOGLE FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+	<!-- GLOBAL SITE TAG | GOOGLE ANALYTICS -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QP1P44M1CV"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'G-QP1P44M1CV');
+	</script>
 
-	<body id="home" data-scroll>
-		<!-- BUTTON FORM SEND -->
+	<!-- PROGRESSIVE WEB APP | REGISTER SERVICE WORKER -->
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('./assets/sw.js').then(
+				() => {
+					console.log('register success');
+				},
+				() => {
+					console.log('register failed');
+				}
+			);
+		}
+	</script>
+</head>
 
-		<button class="send-btn">submitted form</button>
+<body id="home" data-scroll>
+	<!-- BUTTON FORM SEND -->
 
-		<!-- R A I N -->
+	<button class="send-btn" data-section="home" data-value="send-btn">submitted form</button>
 
-		<div class="rain-container">
-			<span class="rain-drop" style="--px: 05vw; --d: 3s"></span>
-			<span class="rain-drop" style="--px: 20vw; --d: 1s"></span>
-			<span class="rain-drop" style="--px: 30vw; --d: 5s"></span>
-			<span class="rain-drop" style="--px: 40vw; --d: 7s"></span>
-			<span class="rain-drop" style="--px: 50vw; --d: 3s"></span>
-			<span class="rain-drop" style="--px: 80vw; --d: 0s"></span>
-			<span class="rain-drop" style="--px: 90vw; --d: 4s"></span>
-			<span class="rain-drop" style="--px: 95vw; --d: 1s"></span>
-		</div>
+	<!-- R A I N -->
 
-		<!-- N A V E G A T I O N   M E N U -->
+	<div class="rain-container">
+		<span class="rain-drop" style="--px: 05vw; --d: 3s"></span>
+		<span class="rain-drop" style="--px: 20vw; --d: 1s"></span>
+		<span class="rain-drop" style="--px: 30vw; --d: 5s"></span>
+		<span class="rain-drop" style="--px: 40vw; --d: 7s"></span>
+		<span class="rain-drop" style="--px: 50vw; --d: 3s"></span>
+		<span class="rain-drop" style="--px: 80vw; --d: 0s"></span>
+		<span class="rain-drop" style="--px: 90vw; --d: 4s"></span>
+		<span class="rain-drop" style="--px: 95vw; --d: 1s"></span>
+	</div>
 
-		<div class="menu-container">
-			<div class="navbar-container">
-				<a href="#" class="logo-container">
-					<img
-						class="logo-img"
-						src="images/icon.png"
-						alt="icon"
-						width="64"
-						height="auto"
-					/>
-					<span class="logo"
-						>JONATHAN<b style="margin-left: 0.5rem">PEÑA</b></span
-					>
-				</a>
+	<!-- N A V E G A T I O N   M E N U -->
 
-				<nav class="navbar">
-					<span class="navbar-item active" data-id="home"
-						><a href="#" data-section="navbar" data-value="nav-item1"
-							>HOME</a
-						></span
-					>
-					<span class="navbar-item" data-id="project"
-						><a href="#project" data-section="navbar" data-value="nav-item2"
-							>PROJECTS</a
-						></span
-					>
-					<span class="navbar-item" data-id="about"
-						><a href="#about" data-section="navbar" data-value="nav-item3"
-							>ABOUT ME</a
-						></span
-					>
-					<span class="navbar-item" data-id="contact"
-						><a href="#contact" data-section="navbar" data-value="nav-item4"
-							>CONTACT</a
-						></span
-					>
-					<div class="indicator"></div>
+	<div class="menu-container">
+		<div class="navbar-container">
+			<a href="#" class="logo-container">
+				<img class="logo-img" src="images/icon.png" alt="icon" width="64" height="auto" />
+				<span class="logo">JONATHAN<b style="margin-left: 0.5rem">PEÑA</b></span>
+			</a>
 
-					<div id="language">
-						<img
-							width="16"
-							height="16"
-							src="images/icon-earth.svg"
-							alt="earth icono"
-						/>
-						<select class="selected-language">
-							<option value="en">EN</option>
-							<option value="es">ES</option>
-						</select>
-					</div>
-				</nav>
+			<nav class="navbar">
+				<span class="navbar-item active" data-id="home"><a href="#" data-section="navbar"
+						data-value="nav-item1">HOME</a></span>
+				<span class="navbar-item" data-id="project"><a href="#project" data-section="navbar"
+						data-value="nav-item2">PROJECTS</a></span>
+				<span class="navbar-item" data-id="about"><a href="#about" data-section="navbar" data-value="nav-item3">ABOUT
+						ME</a></span>
+				<span class="navbar-item" data-id="contact"><a href="#contact" data-section="navbar"
+						data-value="nav-item4">CONTACT</a></span>
+				<div class="indicator"></div>
 
-				<div class="hamburger">
-					<span class="hamburger-bar1"></span>
-					<span class="hamburger-bar2"></span>
-					<span class="hamburger-bar3"></span>
+				<div id="language">
+					<img width="16" height="16" src="images/icon-earth.svg" alt="earth icono" />
+					<select class="selected-language">
+						<option value="en">EN</option>
+						<option value="es">ES</option>
+					</select>
 				</div>
+			</nav>
+
+			<div class="hamburger">
+				<span class="hamburger-bar1"></span>
+				<span class="hamburger-bar2"></span>
+				<span class="hamburger-bar3"></span>
 			</div>
 		</div>
+	</div>
 
-		<div class="blur-container">
-			<!-- H E A D E R -->
+	<div class="blur-container">
+		<!-- H E A D E R -->
 
-			<header id="header">
-				<div class="header-container">
-					<div class="hero-container">
-						<h1
-							class="hero-h1 style-p"
-							data-section="hero"
-							data-value="hero-h1"
-						>
-							Hi I'm Jonathan Peña
-						</h1>
+		<header id="header">
+			<div class="header-container">
+				<div class="hero-container">
+					<h1 class="hero-h1 style-p" data-section="hero" data-value="hero-h1">
+						Hi I'm Jonathan Peña
+					</h1>
 
-						<h2 class="hero-h2" data-section="hero" data-value="hero-h2">
-							Web Developer
-						</h2>
+					<h2 class="hero-h2" data-section="hero" data-value="hero-h2">
+						Web Developer
+					</h2>
 
-						<blockquote
-							class="hero-quote style-p"
-							data-section="hero"
-							data-value="hero-quote"
-						>
-							"Education is what remains after one has forgotten, what one has
-							learned in school"
-							<cite class="style-p" translate="no"> ~ Albert Einstein</cite>
-						</blockquote>
+					<blockquote class="hero-quote style-p" data-section="hero" data-value="hero-quote">
+						"Education is what remains after one has forgotten, what one has
+						learned in school"
+						<cite class="style-p" translate="no"> ~ Albert Einstein</cite>
+					</blockquote>
 
-						<a
-							href="./CV.pdf"
-							target="_blank"
-							class="btn style-p"
-							style="--btn-bgc: #0e0e22ff; --btn-clr: #00a2f2"
-						>
-							<span>RESUME</span>
-						</a>
-					</div>
+					<a href="./CV.pdf" target="_blank" class="btn style-p" style="--btn-bgc: #0e0e22ff; --btn-clr: #00a2f2">
+						<span>RESUME</span>
+					</a>
 				</div>
-			</header>
+			</div>
+		</header>
 
-			<!-- M A I N -->
+		<!-- M A I N -->
 
-			<main id="main">
-				<!-- P R O J E C T  S E C T I O N -->
+		<main id="main">
+			<!-- P R O J E C T  S E C T I O N -->
 
-				<section id="project" data-scroll>
-					<div class="project-title move-top">
-						<h2
-							class="style-p font-blue"
-							data-section="project"
-							data-value="project-h2"
-						>
-							Featured Projects
-						</h2>
+			<section id="project" data-scroll>
+				<div class="project-title move-top">
+					<h2 class="style-p font-blue" data-section="project" data-value="project-h2">
+						Featured Projects
+					</h2>
 
-						<p class="style-p" data-section="project" data-value="project-p">
-							These are the last projects I worked on
-						</p>
-					</div>
-
-					<div class="project-container">
-						<div class="project-item move-right">
-							<div class="project-img-container">
-								<img
-									class="project-img"
-									src="images/site-1.webp"
-									width="600"
-									height="480"
-									alt="website-1"
-								/>
-							</div>
-
-							<div class="project-content">
-								<p data-section="project" data-value="project-num1">
-									Project #01
-								</p>
-								<h3 translate="no">Marketing</h3>
-								<a
-									href=""
-									class="btn style-p"
-									style="--btn-bgc: #12122a; --btn-clr: #00a2f2"
-									rel="noopener"
-									><span data-section="project" data-value="project-btn"
-										>READ MORE</span
-									></a
-								>
-							</div>
-						</div>
-
-						<div class="project-item move-left">
-							<div class="project-img-container">
-								<img
-									class="project-img"
-									src="images/site-2.webp"
-									width="600"
-									height="480"
-									alt="website-2"
-								/>
-							</div>
-
-							<div class="project-content">
-								<p data-section="project" data-value="project-num2">
-									Project #02
-								</p>
-								<h3 translate="no">BizBud</h3>
-								<a
-									href=""
-									class="btn style-p"
-									style="--btn-bgc: #12122a; --btn-clr: #00a2f2"
-									rel="noopener"
-									><span data-section="project" data-value="project-btn"
-										>READ MORE</span
-									></a
-								>
-							</div>
-						</div>
-
-						<div class="project-item move-right">
-							<div class="project-img-container">
-								<img
-									class="project-img"
-									src="images/site-3.webp"
-									width="600"
-									height="480"
-									alt="website-3"
-								/>
-							</div>
-
-							<div class="project-content">
-								<p data-section="project" data-value="project-num3">
-									Project #03
-								</p>
-								<h3 translate="no">Simpleux</h3>
-								<a
-									href=""
-									class="btn style-p"
-									style="--btn-bgc: #12122a; --btn-clr: #00a2f2"
-									rel="noopener"
-									><span data-section="project" data-value="project-btn"
-										>READ MORE</span
-									></a
-								>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!-- A B O U T  S E C T I O N -->
-
-				<section id="about" data-scroll>
-					<div class="about-title move-top">
-						<h2
-							class="style-p font-purple"
-							data-section="about"
-							data-value="about-title"
-						>
-							About Me
-						</h2>
-
-						<p
-							class="style-p"
-							data-section="about"
-							data-value="about-description"
-						>
-							I am a web developer who enjoys doing the layout and interactivity
-							of web interfaces, as well as optimization, for the good
-							positioning and loading performance of websites and applications.
-							I have experience in the frontend and backend, being considered a
-							full-stack javascript developer. I also have experience in Content
-							Marketing, SEO and Video Game Development.
-						</p>
-
-						<h3
-							class="style-p font-blue"
-							data-section="about"
-							data-value="about-subtitle"
-						>
-							SKILLS
-						</h3>
-
-						<span class="sphere-container"></span>
-					</div>
-				</section>
-
-				<!-- C O N T A C T  S E C T I O N -->
-
-				<section id="contact" data-scroll="">
-					<div class="contact-title move-top">
-						<h2
-							class="style-p font-purple"
-							data-section="contact"
-							data-value="contact-h2"
-						>
-							Contact me
-						</h2>
-					</div>
-
-					<div class="contact-container move-right">
-						<div class="box">
-							<!--  Form -->
-							<div class="contact form">
-								<form id="formulario" action="#" autocomplete="off">
-									<div class="form-container">
-										<div class="row50">
-											<div class="inputBox">
-												<input
-													type="text"
-													id="nombre"
-													name="name"
-													title="Campo obligatorio"
-													placeholder=" "
-													required
-													pattern="[a-zA-ZÀ-ÿ]{2,20}"
-													maxlength="20"
-												/>
-												<p
-													data-section="contact"
-													data-value="contact-nameError"
-												>
-													Name must be from 2 to 20 digits and can only contain
-													letters
-												</p>
-												<label
-													for="nombre"
-													data-section="contact"
-													data-value="contact-name"
-													>Name</label
-												>
-											</div>
-
-											<div class="inputBox">
-												<input
-													type="text"
-													id="apellido"
-													name="apellido"
-													placeholder=" "
-													pattern="[a-zA-ZÀ-ÿ]{2,20}"
-													maxlength="20"
-												/>
-												<p
-													data-section="contact"
-													data-value="contact-lastnameError"
-												>
-													Last name must be from 2 to 20 digits and can only
-													contain letters
-												</p>
-												<label
-													for="apellido"
-													data-section="contact"
-													data-value="contact-lastname"
-													>Last Name</label
-												>
-											</div>
-										</div>
-
-										<div class="row50">
-											<div class="inputBox">
-												<input
-													type="email"
-													id="email"
-													name="email"
-													title="Campo obligatorio"
-													placeholder=" "
-													required
-													pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-												/>
-												<p
-													data-section="contact"
-													data-value="contact-emailError"
-												>
-													Email can only contain letters, numbers, points,
-													hyphens and underscores
-												</p>
-												<label
-													for="email"
-													data-section="contact"
-													data-value="contact-email"
-													>Email</label
-												>
-											</div>
-
-											<div class="inputBox">
-												<input
-													type="tel"
-													name="phone"
-													id="phone"
-													placeholder=" "
-													pattern="[\d]{7,12}$"
-													maxlength="12"
-												/>
-											</div>
-										</div>
-
-										<div class="row100">
-											<div class="inputBox">
-												<textarea
-													name="message"
-													id="message"
-													maxlength="255"
-													placeholder="..."
-												></textarea>
-											</div>
-										</div>
-
-										<div class="row100">
-											<div class="inputBox">
-												<button
-													type="submit"
-													class="btn style-p"
-													style="--btn-bgc: #12122a; --btn-clr: #e1148b"
-												>
-													<span
-														data-section="contact"
-														data-value="contact-submit"
-														>Submit</span
-													>
-												</button>
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</section>
-			</main>
-
-			<!-- F O O T E R -->
-
-			<footer id="footer">
-				<div class="footer-container">
-					<div class="social-container">
-						<a href="https://linkedin.com/in/jonpeña" target="_blank">
-							<img src="images/icon-linkedin.svg" alt="linkedin icon" />
-						</a>
-
-						<a href="https://github.com/jonpena" target="_blank">
-							<img src="images/icon-github.svg" alt="github icon" />
-						</a>
-
-						<a
-							href="https://api.whatsapp.com/send?phone=04121953819&text=Hola%20Jonathan,%20Como%20Estas ?"
-							target="_blank"
-						>
-							<img src="images/icon-whatsapp.svg" alt="whatsapp icon" />
-						</a>
-
-						<a
-							href="https://www.youtube.com/channel/UCjxrf5SMrC0F66MuxvJ7ZWQ"
-							target="_blank"
-						>
-							<img src="images/icon-youtube.svg" alt="youtube icon" />
-						</a>
-					</div>
-
-					<p data-section="footer" data-value="footer-p">
-						Built with <span>❤️</span> by Jonathan Peña
+					<p class="style-p" data-section="project" data-value="project-p">
+						These are the last projects I worked on
 					</p>
 				</div>
-			</footer>
-		</div>
 
-		<script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.16/build/js/intlTelInput.min.js"></script>
-		<script type="module" src="/main.js"></script>
-	</body>
+				<div class="project-container">
+					<div class="project-item move-right">
+						<div class="project-img-container">
+							<img class="project-img" src="images/site-1.webp" width="600" height="480" alt="website-1" />
+						</div>
+
+						<div class="project-content">
+							<p data-section="project" data-value="project-num1">
+								Project #01
+							</p>
+							<h3 translate="no">Marketing</h3>
+							<a href="" class="btn style-p" style="--btn-bgc: #12122a; --btn-clr: #00a2f2" rel="noopener"><span
+									data-section="project" data-value="project-btn">READ MORE</span></a>
+						</div>
+					</div>
+
+					<div class="project-item move-left">
+						<div class="project-img-container">
+							<img class="project-img" src="images/site-2.webp" width="600" height="480" alt="website-2" />
+						</div>
+
+						<div class="project-content">
+							<p data-section="project" data-value="project-num2">
+								Project #02
+							</p>
+							<h3 translate="no">BizBud</h3>
+							<a href="" class="btn style-p" style="--btn-bgc: #12122a; --btn-clr: #00a2f2" rel="noopener"><span
+									data-section="project" data-value="project-btn">READ MORE</span></a>
+						</div>
+					</div>
+
+					<div class="project-item move-right">
+						<div class="project-img-container">
+							<img class="project-img" src="images/site-3.webp" width="600" height="480" alt="website-3" />
+						</div>
+
+						<div class="project-content">
+							<p data-section="project" data-value="project-num3">
+								Project #03
+							</p>
+							<h3 translate="no">Simpleux</h3>
+							<a href="" class="btn style-p" style="--btn-bgc: #12122a; --btn-clr: #00a2f2" rel="noopener"><span
+									data-section="project" data-value="project-btn">READ MORE</span></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- A B O U T  S E C T I O N -->
+
+			<section id="about" data-scroll>
+				<div class="about-title move-top">
+					<h2 class="style-p font-purple" data-section="about" data-value="about-title">
+						About Me
+					</h2>
+
+					<p class="style-p" data-section="about" data-value="about-description">
+						I am a web developer who enjoys doing the layout and interactivity
+						of web interfaces, as well as optimization, for the good
+						positioning and loading performance of websites and applications.
+						I have experience in the frontend and backend, being considered a
+						full-stack javascript developer. I also have experience in Content
+						Marketing, SEO and Video Game Development.
+					</p>
+
+					<h3 class="style-p font-blue" data-section="about" data-value="about-subtitle">
+						SKILLS
+					</h3>
+
+					<span class="sphere-container"></span>
+				</div>
+			</section>
+
+			<!-- C O N T A C T  S E C T I O N -->
+
+			<section id="contact" data-scroll="">
+				<div class="contact-title move-top">
+					<h2 class="style-p font-purple" data-section="contact" data-value="contact-h2">
+						Contact me
+					</h2>
+				</div>
+
+				<div class="contact-container move-right">
+					<div class="box">
+						<!--  Form -->
+						<div class="contact form">
+							<form id="formulario" action="#" autocomplete="off">
+								<div class="form-container">
+									<div class="row50">
+										<div class="inputBox">
+											<input type="text" id="nombre" name="name" title="Campo obligatorio" placeholder=" " required
+												pattern="[a-zA-ZÀ-ÿ]{2,20}" maxlength="20" />
+											<p data-section="contact" data-value="contact-nameError">
+												Name must be from 2 to 20 digits and can only contain
+												letters
+											</p>
+											<label for="nombre" data-section="contact" data-value="contact-name">Name</label>
+										</div>
+
+										<div class="inputBox">
+											<input type="text" id="apellido" name="apellido" placeholder=" " pattern="[a-zA-ZÀ-ÿ]{2,20}"
+												maxlength="20" />
+											<p data-section="contact" data-value="contact-lastnameError">
+												Last name must be from 2 to 20 digits and can only
+												contain letters
+											</p>
+											<label for="apellido" data-section="contact" data-value="contact-lastname">Last Name</label>
+										</div>
+									</div>
+
+									<div class="row50">
+										<div class="inputBox">
+											<input type="email" id="email" name="email" title="Campo obligatorio" placeholder=" " required
+												pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+											<p data-section="contact" data-value="contact-emailError">
+												Email can only contain letters, numbers, points,
+												hyphens and underscores
+											</p>
+											<label for="email" data-section="contact" data-value="contact-email">Email</label>
+										</div>
+
+										<div class="inputBox">
+											<input type="tel" name="phone" id="phone" placeholder=" " pattern="[\d]{7,12}$" maxlength="12" />
+										</div>
+									</div>
+
+									<div class="row100">
+										<div class="inputBox">
+											<textarea name="message" id="message" maxlength="255" placeholder="..."></textarea>
+										</div>
+									</div>
+
+									<div class="row100">
+										<div class="inputBox">
+											<button type="submit" class="btn style-p" style="--btn-bgc: #12122a; --btn-clr: #e1148b">
+												<span data-section="contact" data-value="contact-submit">Submit</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- F O O T E R -->
+
+		<footer id="footer">
+			<div class="footer-container">
+				<div class="social-container">
+					<a href="https://linkedin.com/in/jonpeña" target="_blank">
+						<img src="images/icon-linkedin.svg" alt="linkedin icon" />
+					</a>
+
+					<a href="https://github.com/jonpena" target="_blank">
+						<img src="images/icon-github.svg" alt="github icon" />
+					</a>
+
+					<a href="https://api.whatsapp.com/send?phone=04121953819&text=Hola%20Jonathan,%20Como%20Estas ?"
+						target="_blank">
+						<img src="images/icon-whatsapp.svg" alt="whatsapp icon" />
+					</a>
+
+					<a href="https://www.youtube.com/channel/UCjxrf5SMrC0F66MuxvJ7ZWQ" target="_blank">
+						<img src="images/icon-youtube.svg" alt="youtube icon" />
+					</a>
+				</div>
+
+				<p data-section="footer" data-value="footer-p">
+					Built with <span>❤️</span> by Jonathan Peña
+				</p>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.16/build/js/intlTelInput.min.js"></script>
+	<script type="module" src="/main.js"></script>
+</body>
+
 </html>

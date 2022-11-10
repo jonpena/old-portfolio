@@ -36,7 +36,7 @@ b {
 }
 
 .btn::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 2.25rem;
   height: 500%;
@@ -47,7 +47,7 @@ b {
 }
 
 .btn::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 98%;
   height: 92%;

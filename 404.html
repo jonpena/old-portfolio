@@ -37,6 +37,9 @@
         bottom: 0;
       }
     </style>
+    <script type="module" crossorigin src="/assets/status.9d5e029e.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/components.2c0ce147.js">
+    <link rel="stylesheet" href="/assets/components.a51b1ea5.css">
   </head>
 
   <body id="home" data-scroll>
@@ -114,26 +117,6 @@
       </div>
     </footer>
 
-    <script type="module">
-      import normalize from './src/css/normalize.css';
-      import style from './src/css/style.css';
-      import cssComponents from './src/css/components.css';
-
-      const setLanguageJson = (language, texts) => {
-        (async () => {
-          const response = await fetch(`./language/${language}.json`);
-          const data = await response.json();
-          for (const text of texts) {
-            text.innerHTML = data[text.dataset.section][text.dataset.value];
-          }
-        })();
-      };
-
-      window.addEventListener('DOMContentLoaded', () => {
-        const lang = window.localStorage.getItem('lang');
-        let $textToChange = document.querySelectorAll('[data-section]');
-        setLanguageJson(lang, $textToChange);
-      });
-    </script>
+    
   </body>
 </html>

@@ -127,26 +127,31 @@
         </a>
 
         <nav class="navbar">
-          <span class="navbar-item active" data-id="home"
-            ><a href="#" data-section="navbar" data-value="nav-item1"
-              >HOME</a
-            ></span
+          <a href="#" style="--i: 1" class="navbar-item active" data-id="home"
+            ><span data-section="navbar" data-value="nav-item1">HOME </span>
+          </a>
+
+          <a
+            href="#project"
+            style="--i: 2"
+            class="navbar-item"
+            data-id="project"
+            ><span data-section="navbar" data-value="nav-item2">PROJECTS</span>
+          </a>
+
+          <a href="#about" style="--i: 3" class="navbar-item" data-id="about"
+            ><span data-section="navbar" data-value="nav-item3">ABOUT ME</span>
+          </a>
+
+          <a
+            href="#contact"
+            style="--i: 4"
+            class="navbar-item"
+            data-id="contact"
           >
-          <span class="navbar-item" data-id="project"
-            ><a href="#project" data-section="navbar" data-value="nav-item2"
-              >PROJECTS</a
-            ></span
-          >
-          <span class="navbar-item" data-id="about"
-            ><a href="#about" data-section="navbar" data-value="nav-item3"
-              >ABOUT ME</a
-            ></span
-          >
-          <span class="navbar-item" data-id="contact"
-            ><a href="#contact" data-section="navbar" data-value="nav-item4"
-              >CONTACT</a
-            ></span
-          >
+            <span data-section="navbar" data-value="nav-item4">CONTACT </span>
+          </a>
+
           <div class="indicator"></div>
 
           <div id="language">
@@ -248,11 +253,8 @@
                   Project #01
                 </p>
                 <h3 translate="no">Marketing</h3>
-                <a
-                  href=""
-                  class="btn style-p"
-                  style="--btn-bgc: #12122a; --btn-clr: #00a2f2"
-                  rel="noopener"
+                <a class="explore-btn" href=""
+                  ><i></i
                   ><span data-section="project" data-value="project-btn"
                     >READ MORE</span
                   ></a
@@ -276,11 +278,8 @@
                   Project #02
                 </p>
                 <h3 translate="no">BizBud</h3>
-                <a
-                  href=""
-                  class="btn style-p"
-                  style="--btn-bgc: #12122a; --btn-clr: #00a2f2"
-                  rel="noopener"
+                <a class="explore-btn" href=""
+                  ><i></i
                   ><span data-section="project" data-value="project-btn"
                     >READ MORE</span
                   ></a
@@ -304,11 +303,8 @@
                   Project #03
                 </p>
                 <h3 translate="no">Simpleux</h3>
-                <a
-                  href=""
-                  class="btn style-p"
-                  style="--btn-bgc: #12122a; --btn-clr: #00a2f2"
-                  rel="noopener"
+                <a class="explore-btn" href=""
+                  ><i></i
                   ><span data-section="project" data-value="project-btn"
                     >READ MORE</span
                   ></a
@@ -470,7 +466,7 @@
                           name="message"
                           id="message"
                           maxlength="255"
-                          placeholder="..."
+                          placeholder=""
                         ></textarea>
                       </div>
                     </div>

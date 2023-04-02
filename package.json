@@ -7,8 +7,8 @@
     "dev": "vite --open",
     "build": "vite build && workbox generateSW workbox-config.js",
     "preview": "vite preview --open",
-    "deploy": "gh-pages -d dist"
-  },
+    "deploy": "gh-pages -b main -d dist"
+  },   
   "devDependencies": {
     "eslint": "^8.27.0",
     "prettier": "^2.7.1",

@@ -144,7 +144,7 @@ document.addEventListener('submit', (e) => {
   }).then((res) => {
     if (res.ok) {
       $sendBtn.classList.add('send');
-      window.setTimeout(() => $sendBtn.classList.remove('send'), 3000);
+      window.setTimeout(() => $sendBtn.classList.remove('send'), 2500);
       $formSubmit.reset();
     }
   });

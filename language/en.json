@@ -1,49 +1,49 @@
 {
-	"home": {
-		"send-btn": "Submitted Form !"
-	},
-	"navbar": {
-		"nav-item1": "HOME",
-		"nav-item2": "PROJECTS",
-		"nav-item3": "ABOUT ME",
-		"nav-item4": "CONTACT"
-	},
+  "home": {
+    "send-btn": "Submitted Form !"
+  },
+  "navbar": {
+    "nav-item1": "HOME",
+    "nav-item2": "PROJECTS",
+    "nav-item3": "ABOUT ME",
+    "nav-item4": "CONTACT"
+  },
 
-	"hero": {
-		"hero-h1": "Hi I'm Jonathan Peña",
-		"hero-h2": "Web Developer",
-		"hero-quote": "\"Education is what remains after one has forgotten, what one has learned in school\" <br/> <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>",
-		"err-text": "Oops, Page Not Found !",
-		"back-btn": "GO HOME"
-	},
+  "hero": {
+    "hero-h1": "Hi I'm Jonathan Peña",
+    "hero-h2": "Web Developer",
+    "hero-quote": "\"Education is what remains after one has forgotten, what one has learned in school\" <br/> <cite class=\"style-p\" translate=\"no\"> ~ Albert Einstein</cite>",
+    "err-text": "Oops, Page Not Found !",
+    "back-btn": "GO HOME"
+  },
 
-	"project": {
-		"project-h2": "Featured Projects",
-		"project-p": "These are the last projects I worked on",
-		"project-btn": "READ MORE",
-		"project-num1": "Project #01",
-		"project-num2": "Project #02",
-		"project-num3": "Project #03"
-	},
-	"about": {
-		"about-title": "About Me",
-		"about-description": "I am a web developer who enjoys doing the layout and interactivity of web interfaces, as well as optimization, for the good positioning and loading performance of websites and applications. I have experience in the frontend and backend, being considered a full-stack javascript developer. I also have experience in Content Marketing, SEO and Video Game Development.",
-		"about-subtitle": "SKILLS"
-	},
-	"contact": {
-		"contact-h2": "Contact me",
-		"contact-name": "Name",
-		"contact-nameError": "Name must be from 3 to 20 digits and can only contain letters",
-		"contact-lastname": "Last Name",
-		"contact-lastnameError": "Last name must be from 3 to 20 digits and can only contain letters",
-		"contact-email": "Email",
-		"contact-emailError": "Email can only contain letters, numbers, points, hyphens and underscores",
-		"contact-number": "Phone Number",
-		"contact-numberError": "Phone number must be from 7 to 12 digits and can only contain numbers",
-		"contact-message": "Message",
-		"contact-submit": "Submit"
-	},
-	"footer": {
-		"footer-p": "Created with <span>❤️</span> by Jonathan Peña"
-	}
+  "project": {
+    "project-h2": "Featured Projects",
+    "project-p": "These are the last projects I worked on",
+    "project-btn": "READ MORE",
+    "project-num1": "Project #01",
+    "project-num2": "Project #02",
+    "project-num3": "Project #03"
+  },
+  "about": {
+    "about-title": "About Me",
+    "about-description": "I am a Fullstack Developer who enjoys designing and implementing web interfaces with interactivity, as well as optimizing them for good positioning and loading performance of websites and applications. I have experience in both frontend and backend development, being considered a Full-stack JS developer. I also have experience in backend development using the GO language, Content Marketing, SEO, and Game Development.",
+    "about-subtitle": "SKILLS"
+  },
+  "contact": {
+    "contact-h2": "Contact me",
+    "contact-name": "Name",
+    "contact-nameError": "Name must be from 3 to 20 digits and can only contain letters",
+    "contact-lastname": "Last Name",
+    "contact-lastnameError": "Last name must be from 3 to 20 digits and can only contain letters",
+    "contact-email": "Email",
+    "contact-emailError": "Email can only contain letters, numbers, points, hyphens and underscores",
+    "contact-number": "Phone Number",
+    "contact-numberError": "Phone number must be from 7 to 12 digits and can only contain numbers",
+    "contact-message": "Message",
+    "contact-submit": "Submit"
+  },
+  "footer": {
+    "footer-p": "Created with <span>❤️</span> by Jonathan Peña"
+  }
 }

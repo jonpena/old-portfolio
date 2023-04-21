@@ -38,7 +38,7 @@
 }
 
 .tagcloud--item:nth-child(6) {
-  background-image: url('../images/webpack.svg');
+  background-image: url('../images/docker.webp');
 }
 
 .tagcloud--item:nth-child(7) {
@@ -58,9 +58,25 @@
 }
 
 .tagcloud--item:nth-child(11) {
-  background-image: url('../images/postcss.webp');
+  background-image: url('../images/nodejs.webp');
 }
 
 .tagcloud--item:nth-child(12) {
   background-image: url('../images/typescript.webp');
+}
+
+.tagcloud--item:nth-child(13) {
+  background-image: url('../images/golang.webp');
+}
+
+.tagcloud--item:nth-child(14) {
+  background-image: url('../images/nextjs.webp');
+}
+
+.tagcloud--item:nth-child(15) {
+  background-image: url('../images/aws.webp');
+}
+
+.tagcloud--item:nth-child(16) {
+  background-image: url('../images/figma.webp');
 }

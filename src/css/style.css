@@ -119,15 +119,16 @@ html {
 
 ::-webkit-scrollbar {
   width: 0.5rem;
+  height: 0.5rem;
 }
 
 ::-webkit-scrollbar-corner {
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--blue-1);
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 /** R A I N **/
@@ -266,12 +267,12 @@ html {
   top: 0;
   right: 0;
   transform: translateX(100vw);
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: transparent;
-  transition: transform 0.5s ease, visibility 1.0s 0.5s ease;
+  transition: transform 0.5s ease, visibility 1s 0.5s ease;
 }
 
 @media screen and (min-width: 48em) {
@@ -387,8 +388,8 @@ html {
   }
 
   .navbar-item:nth-child(4).active ~ .indicator {
-    width: 7.35rem;
-    transform: translate(355px, -50%);
+    width: 7.25rem;
+    transform: translate(350px, -50%);
   }
 }
 

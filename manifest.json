@@ -13,12 +13,14 @@
     {
       "src": "./images/favicon-128x128.png",
       "sizes": "128x128",
-      "type": "image/png"
+      "type": "image/png",
+      "background_color": "#0a0a26"
     },
     {
       "src": "./images/favicon-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "background_color": "#0a0a26"
     }
   ]
 }
